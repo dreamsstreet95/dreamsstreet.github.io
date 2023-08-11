@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+
+body {
+  background-image: linear-gradient(
+    45deg,
+    rgba(252, 236, 252, 1) 0%,
+    rgba(219, 52, 169, 1) 24%,
+    rgba(253, 137, 215, 1) 51%,
+    rgba(222, 36, 135, 1) 100%
+  );
+}
+
+.logo img {
+  width: 300px;
+  height: 150px;
+}
+
+header {
+  background-color: rgb(158, 45, 141);
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: beige;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.enlaces_logo {
+  background-color: green;
+}
+
+.enlaces_links {
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  margin: 15px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* header ul {
+  display: flex;
+  flex-direction: row;
+} */
+
+header ul li {
+  text-decoration: none;
+}
+
+.intro {
+  font-size: 60px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 120px;
+  font-size: 60px;
+  color: rgb(112, 11, 88);
+  font-family: "Cinzel Decorative", cursive;
+}
+
+/* Cambios hechos para el mensjae de Arte para Todxs */
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 60px;
+    color: #fff;
+  }
+}
+
+.intro p {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
+  text-align: center !important;
+  font-size: 60px;
+  color: rgb(112, 11, 88);
+  font-family: "Cinzel Decorative", cursive;
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(58, 41, 97);
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.contenido {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(158, 47, 141);
+  align-items: center;
+}
+
+.contenido h3 {
+  display: flex;
+  margin: 15px;
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: rgb(220, 220, 215);
+  text-align: center;
+  justify-content: center;
+}
+
+.texto {
+  margin: 25px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(220, 220, 215);
+  text-align: center;
+  justify-content: center;
+}
+
+.contenido img {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  width: 800px;
+  height: 900px;
+  border-radius: 50%;
+}
+
+/* Cambios hechos para que la imagen sea responsiva. */
+@media (max-width: 768px) {
+  .contenido img {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+  }
+}
+
+.elementos {
+  display: flex;
+  flex-direction: row;
+  width: 800;
+}
+
+.videocont {
+  display: flex;
+  flex-direction: row;
+}
+
+.video {
+  margin-bottom: 30px;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.carrousel-item {
+  width: 600px;
+  height: 600px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.carrousel-item img {
+  width: 50%;
+}
+
+.contacto {
+  background-color: rgb(158, 45, 141);
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.contacto h2 {
+  font-size: 60px;
+  color: rgb(220, 220, 215);
+}
+
+/* Cambios hechos para que el h2 sea responsivo */
+@media (max-width: 768px) {
+  .contacto h2 {
+    font-size: 35px;
+  }
+}
+
+.contacto p {
+  font-size: 30px;
+  color: rgb(220, 220, 215);
+}
+
+/* Cambios hechos para que el p sea responsivo */
+@media (max-width: 768px) {
+  .contacto p {
+    font-size: 20px;
+  }
+}
+
+footer {
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: rgb(158, 45, 141);
+  color: rgb(220, 220, 215);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
